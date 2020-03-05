@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+#map {
+  width: 100vw;
+  height: 100vh;
+}
+
+.control-panel {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  max-width: 320px;
+  width:150px;
+  padding:20px;
+  background:rgba(0,0,0,0.5);
+  color:white;
+  font-size: 13px;
+  line-height: 2;
+}
+.control-panel h3{
+  font-weight: 800;
+  text-align: center;
+}
+.mapboxgl-popup-content{
+  background:rgba(0,0,0,0.5)!important;
+  color:white;
+}
+
+
+.marker{
+  width:20px;
+  height: auto;
+}
